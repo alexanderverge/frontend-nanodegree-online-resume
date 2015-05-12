@@ -55,9 +55,10 @@ var HTMLonlineSchool = ' - %data%</a>';
 var HTMLonlineDates = '<div class="date-text">%data%</div>';
 var HTMLonlineURL = '<br><a href="#">%data%</a>';
 
-var internationalizeButton = '<button>Internationalize</button>';
+var internationalizeButton = '<br><div class="container"><div class="row"><button type="button" class="btn btn-primary center-block">Internationalize</button></div></div><br>';
 var googleMap = '<div id="map"></div>';
 
+var credits = '<div class="container"><div class="row"> &lt; / &gt; by Alexander Verge</div></div><br>';
 
 /*
 The International Name challenge in Lesson 2 where you'll create a function that will need this helper code to run. Don't delete! It hooks up your code to the button you'll be appending.
@@ -86,6 +87,7 @@ function logClicks(x,y) {
 
 $(document).click(function(loc) {
   // your code goes here!
+  logClicks(loc.pageX, loc.pageY);
 });
 
 
@@ -171,6 +173,7 @@ function initializeMap() {
     // hmmmm, I wonder what this is about...
     google.maps.event.addListener(marker, 'click', function() {
       // your code goes here!
+      infoWindow.open(map, marker);
     });
 
     // this is where the pin actually gets added to the map.
@@ -228,16 +231,12 @@ function initializeMap() {
 
 }
 
-/*
-Uncomment the code below when you're ready to implement a Google Map!
-*/
-
 // Calls the initializeMap() function when the page loads
-//window.addEventListener('load', initializeMap);
+window.addEventListener('load', initializeMap);
 
 // Vanilla JS way to listen for resizing of the window
 // and adjust map bounds
-//window.addEventListener('resize', function(e) {
+window.addEventListener('resize', function(e) {
   // Make sure the map bounds get updated on page resize
-//  map.fitBounds(mapBounds);
-//});
+  map.fitBounds(mapBounds);
+});
