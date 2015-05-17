@@ -71,6 +71,14 @@ var education = {
 			"majors": ["Computer Science"],
 			"dates": 2015,
 			"url": "https://www.mcgill.ca/"
+		},
+		{
+			"name": "Udacity",
+			"location": "Halifax, NS, Canada",
+			"degree": "Nanodegree",
+			"majors": ["Front End Web Developer"],
+			"dates": 2015,
+			"url": "https://www.udacity.com/"
 		}
 	],
 	"onlineCourses": [
