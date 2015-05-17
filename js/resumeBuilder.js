@@ -109,6 +109,48 @@ var education = {
 			"school": "Udacity",
 			"date": 2015,
 			"url": "https://www.udacity.com/course/intro-to-jquery--ud245"
+		},
+		{
+			"title": "Object-Oriented JavaScript",
+			"school": "Udacity",
+			"date": 2015,
+			"url": "https://www.udacity.com/course/object-oriented-javascript--ud015"
+		},
+		{
+			"title": "HTML5 Canvas",
+			"school": "Udacity",
+			"date": 2015,
+			"url": "https://www.udacity.com/course/html5-canvas--ud292"
+		},
+		{
+			"title": "Website Performance Optimization",
+			"school": "Udacity",
+			"date": 2015,
+			"url": "https://www.udacity.com/course/website-performance-optimization--ud884"
+		},
+		{
+			"title": "Browser Rendering Optimization",
+			"school": "Udacity",
+			"date": 2015,
+			"url": "https://www.udacity.com/course/browser-rendering-optimization--ud860"
+		},
+		{
+			"title": "Intro to AJAX",
+			"school": "Udacity",
+			"date": 2015,
+			"url": "https://www.udacity.com/course/intro-to-ajax--ud110"
+		},
+		{
+			"title": "JavaScript Design Patterns",
+			"school": "Udacity",
+			"date": 2015,
+			"url": "https://www.udacity.com/course/javascript-design-patterns--ud989"
+		},
+		{
+			"title": "JavaScript Testing",
+			"school": "Udacity",
+			"date": 2015,
+			"url": "https://www.udacity.com/course/javascript-testing--ud549"
 		}
 	]
 };
